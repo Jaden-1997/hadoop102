@@ -17,8 +17,6 @@ public class WordCountDriver {
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 
         Configuration conf = new Configuration();
-        Path path = new Path("F:\\output");
-
         //1.获得Job对象
 
         Job job = Job.getInstance(conf);
