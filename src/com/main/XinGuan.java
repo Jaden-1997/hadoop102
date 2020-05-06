@@ -5,4 +5,6 @@ public class XinGuan {
     private int fare;
     private int kesou;
     private int huxi;
+
+
 }
